@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QR Code Generator | SmartTools Hub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<div class="navbar">
+
+<div class="logo">
+<span class="logo-icon">🛠️</span>
+<div>
+<h1>SmartTools Hub</h1>
+<p>Free Online Tools</p>
+</div>
+</div>
+
+<a href="index.html" class="btn">🏠 Home</a>
+
+</div>
+</header>
+
+<section class="hero">
+
+<h1>📱 QR Code Generator</h1>
+
+<p>Create a QR code for any website or text.</p>
+
+<div class="calculator-card">
+
+<input
+type="text"
+id="qrText"
+placeholder="Enter text or website URL">
+
+<button class="btn" onclick="generateQR()">
+Generate QR Code
+</button>
+
+<div id="qrCode"></div>
+
+</div>
+
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

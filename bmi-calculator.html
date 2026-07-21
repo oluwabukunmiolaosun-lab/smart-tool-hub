@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator | SmartTools Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="navbar">
+        <div class="logo">
+            <span class="logo-icon">🛠️</span>
+            <div>
+                <h1>SmartTools Hub</h1>
+                <p>Free Online Tools</p>
+            </div>
+        </div>
+
+        <a href="index.html" class="btn">🏠 Home</a>
+    </div>
+</header>
+
+<section class="hero">
+
+<h1>⚖️ BMI Calculator</h1>
+
+<p>
+Calculate your Body Mass Index quickly and easily.
+</p>
+
+<div class="calculator-card">
+
+<input type="number" id="weight" placeholder="Weight (kg)">
+
+<input type="number" id="height" placeholder="Height (cm)">
+
+<button class="btn" onclick="calculateBMI()">
+Calculate BMI
+</button>
+
+<div id="bmiResult"></div>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>

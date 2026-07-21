@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loan Calculator | SmartTools Hub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<div class="navbar">
+
+<div class="logo">
+<span class="logo-icon">🛠️</span>
+
+<div>
+<h1>SmartTools Hub</h1>
+<p>Free Online Tools</p>
+</div>
+
+</div>
+
+<a href="index.html" class="btn">🏠 Home</a>
+
+</div>
+</header>
+
+<section class="hero">
+
+<h1>💰 Loan Calculator</h1>
+
+<p>Estimate your monthly loan payment.</p>
+
+<div class="calculator-card">
+
+<input type="number" id="loanAmount" placeholder="Loan Amount">
+
+<input type="number" id="interestRate" placeholder="Annual Interest Rate (%)">
+
+<input type="number" id="loanYears" placeholder="Loan Term (Years)">
+
+<button class="btn" onclick="calculateLoan()">
+Calculate Loan
+</button>
+
+<div id="loanResult" class="result-card"></div>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>

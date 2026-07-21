@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Word Counter | SmartTools Hub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<div class="navbar">
+
+<div class="logo">
+<span class="logo-icon">🛠️</span>
+
+<div>
+<h1>SmartTools Hub</h1>
+<p>Free Online Tools</p>
+</div>
+
+</div>
+
+<a href="index.html" class="btn">🏠 Home</a>
+
+</div>
+</header>
+
+<section class="hero">
+
+<h1>📝 Word Counter</h1>
+
+<p>Count words, characters, sentences, and paragraphs instantly.</p>
+
+<div class="calculator-card">
+
+<textarea
+id="textInput"
+rows="10"
+placeholder="Start typing or paste your text here..."
+oninput="countWords()"></textarea>
+
+<div id="wordResult" class="result-card">
+
+<p>Words: <strong>0</strong></p>
+<p>Characters: <strong>0</strong></p>
+<p>Characters (No Spaces): <strong>0</strong></p>
+<p>Sentences: <strong>0</strong></p>
+<p>Paragraphs: <strong>0</strong></p>
+<p>Reading Time: <strong>0 min</strong></p>
+
+</div>
+
+<button class="btn" onclick="clearText()">
+🗑 Clear Text
+</button>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
