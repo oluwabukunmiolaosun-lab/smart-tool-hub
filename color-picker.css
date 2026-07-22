@@ -1,0 +1,85 @@
+.tool-container{
+max-width:700px;
+margin:40px auto;
+padding:30px;
+background:#fff;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+text-align:center;
+}
+
+.tool-container h1{
+margin-bottom:10px;
+}
+
+.tool-container p{
+color:#666;
+margin-bottom:25px;
+}
+
+#picker{
+width:180px;
+height:60px;
+border:none;
+cursor:pointer;
+background:none;
+margin-bottom:20px;
+}
+
+#preview{
+width:220px;
+height:220px;
+margin:20px auto;
+border-radius:15px;
+border:2px solid #ddd;
+}
+
+.color-output{
+margin-top:25px;
+}
+
+.color-output label{
+display:block;
+text-align:left;
+font-weight:bold;
+margin:15px 0 5px;
+}
+
+.color-output input{
+width:100%;
+padding:12px;
+font-size:16px;
+border:1px solid #ddd;
+border-radius:8px;
+box-sizing:border-box;
+}
+
+.color-output button{
+margin-top:20px;
+padding:12px;
+width:100%;
+background:#007bff;
+color:#fff;
+border:none;
+border-radius:8px;
+cursor:pointer;
+font-size:16px;
+}
+
+.color-output button:hover{
+background:#0056b3;
+}
+
+@media(max-width:768px){
+
+.tool-container{
+margin:20px;
+padding:20px;
+}
+
+#preview{
+width:180px;
+height:180px;
+}
+
+}

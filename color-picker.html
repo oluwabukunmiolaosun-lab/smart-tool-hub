@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Color Picker | Smart Tools Hub</title>
+
+<meta name="description" content="Free online Color Picker. Generate HEX, RGB and HSL colors instantly.">
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="color-picker.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<div class="navbar">
+
+<a href="index.html" class="logo">
+<img src="logo.png" class="logo-img" alt="Logo">
+
+<div class="logo-info">
+<h1>Smart Tools Hub</h1>
+<p>Free Online Tools</p>
+</div>
+
+</a>
+
+<button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+</div>
+
+<nav id="mobileMenu">
+
+<a href="index.html">Home</a>
+<a href="index.html#tools">Tools</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+
+<button id="themeBtn" onclick="toggleTheme()">🌙</button>
+
+</nav>
+
+</header>
+
+<section class="tool-container">
+
+<h1>🎨 Color Picker</h1>
+
+<p>Select any color and instantly copy its values.</p>
+
+<input type="color" id="picker" value="#3498db">
+
+<div id="preview"></div>
+
+<div class="color-output">
+
+<label>HEX</label>
+<input type="text" id="hex" readonly>
+
+<label>RGB</label>
+<input type="text" id="rgb" readonly>
+
+<label>HSL</label>
+<input type="text" id="hsl" readonly>
+
+<button onclick="copyHex()">Copy HEX</button>
+
+</div>
+
+</section>
+
+<footer class="footer">
+
+<p>© 2026 Smart Tools Hub</p>
+
+</footer>
+
+<script src="script.js"></script>
+<script src="color-picker.js"></script>
+
+</body>
+</html>

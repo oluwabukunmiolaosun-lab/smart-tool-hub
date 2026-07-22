@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>JSON Formatter | Smart Tools Hub</title>
+
+<meta name="description" content="Free online JSON Formatter. Beautify, validate and minify JSON instantly.">
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="json-formatter.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<div class="navbar">
+
+<a href="index.html" class="logo">
+
+<img src="logo.png" class="logo-img" alt="Logo">
+
+<div class="logo-info">
+<h1>Smart Tools Hub</h1>
+<p>Free Online Tools</p>
+</div>
+
+</a>
+
+<button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+</div>
+
+<nav id="mobileMenu">
+
+<a href="index.html">Home</a>
+<a href="index.html#tools">Tools</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+
+<button id="themeBtn" onclick="toggleTheme()">🌙</button>
+
+</nav>
+
+</header>
+
+<section class="tool-container">
+
+<h1>📄 JSON Formatter</h1>
+
+<p>Paste your JSON below to format, validate or minify it.</p>
+
+<textarea id="jsonInput" placeholder="Paste JSON here..."></textarea>
+
+<div class="button-group">
+
+<button onclick="formatJSON()">Beautify</button>
+
+<button onclick="minifyJSON()">Minify</button>
+
+<button onclick="copyJSON()">Copy</button>
+
+<button onclick="clearJSON()">Clear</button>
+
+</div>
+
+<p id="status"></p>
+
+</section>
+
+<footer class="footer">
+
+<p>© 2026 Smart Tools Hub</p>
+
+</footer>
+
+<script src="script.js"></script>
+<script src="json-formatter.js"></script>
+
+</body>
+
+</html>
