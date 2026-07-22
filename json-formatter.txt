@@ -1,0 +1,46 @@
+const jsonInput = document.getElementById("jsonInput");
+const status = document.getElementById("status");
+
+function showStatus(message, success = true) {
+    status.textContent = message;
+    status.style.color = success ? "green" : "red";
+}
+
+function formatJSON() {
+    try {
+        const obj = JSON.parse(jsonInput.value);
+        jsonInput.value = JSON.stringify(obj, null, 4);
+        showStatus("✅ JSON formatted successfully.");
+    } catch (error) {
+        showStatus("❌ Invalid JSON. Please check your syntax.", false);
+    }
+}
+
+function minifyJSON() {
+    try {
+        const obj = JSON.parse(jsonInput.value);
+        jsonInput.value = JSON.stringify(obj);
+        showStatus("✅ JSON minified successfully.");
+    } catch (error) {
+        showStatus("❌ Invalid JSON. Please check your syntax.", false);
+    }
+}
+
+function copyJSON() {
+    if (jsonInput.value.trim() === "") {
+        showStatus("⚠ Nothing to copy.", false);
+        return;
+    }
+
+    navigator.clipboard.writeText(jsonInput.value);
+    showStatus("📋 JSON copied successfully.");
+}
+
+function clearJSON() {
+    jsonInput.value = "";
+    showStatus("🗑 Editor cleared.");
+}
+
+window.addEventListener("load", () => {
+    showStatus("Ready to format JSON.");
+});
