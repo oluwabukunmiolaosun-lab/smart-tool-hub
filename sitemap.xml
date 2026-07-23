@@ -1,8 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<loc>https://oluwabukunmiolaosun-lab.github.io/smart-tool-hub/</loc>
-<url>
-<loc>http://Smarttoolshub.com/</loc>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://oluwabukunmiolaosun-lab.github.io/smart-tool-hub/</loc>
+  </url>
+
+  <url>
+    <loc>https://oluwabukunmiolaosun-lab.github.io/smart-tool-hub/age-calculator.html</loc>
+  </url>
+
+  <url>
+    <loc>https://oluwabukunmiolaosun-lab.github.io/smart-tool-hub/bmi-calculator.html</loc>
+  </url>
+
+  <url>
+    <loc>https://oluwabukunmiolaosun-lab.github.io/smart-tool-hub/password-generator.html</loc>
+  </url>
+
+  <url>
+    <loc>https://oluwabukunmiolaosun-lab.github.io/smart-tool-hub/qr-generator.html</loc>
+  </url>
+
+  <url>
+    <loc>https://oluwabukunmiolaosun-lab.github.io/smart-tool-hub/word-counter.html</loc>
+  </url>
+
+  <url>
+    <loc>https://oluwabukunmiolaosun-lab.github.io/smart-tool-hub/loan-calculator.html</loc>
+  </url>
+
+  <url>
+    <loc>https://oluwabukunmiolaosun-lab.github.io/smart-tool-hub/color-picker.html</loc>
+  </url>
+
+  <url>
+    <loc>https://oluwabukunmiolaosun-lab.github.io/smart-tool-hub/json-formatter.html</loc>
+  </url>
 
 </urlset>
