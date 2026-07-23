@@ -1,0 +1,26 @@
+function calculatePercentage() {
+
+    let percent = parseFloat(document.getElementById("percent").value);
+
+    let number = parseFloat(document.getElementById("number").value);
+
+    let result = document.getElementById("result");
+
+    if (isNaN(percent) || isNaN(number)) {
+
+        result.innerHTML = `
+        <div class="result-card">
+            <h3>⚠️ Please enter valid numbers.</h3>
+        </div>`;
+        return;
+    }
+
+    let answer = (percent / 100) * number;
+
+    result.innerHTML = `
+    <div class="result-card">
+        <h2>Result</h2>
+        <p><strong>${percent}%</strong> of <strong>${number}</strong> is</p>
+        <h1>${answer.toLocaleString()}</h1>
+    </div>`;
+}
