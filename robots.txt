@@ -1,4 +1,5 @@
 User-agent: *
+
 Allow: /
 
-Sitemap: https://Smarttoolshub.com/sitemap.xml
+Sitemap: https://oluwabukunmiolaosun-lab.github.io/smart-tool-hub/sitemap.xml
