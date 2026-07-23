@@ -36,14 +36,23 @@
 
     <!-- Schema -->
     <script type="application/ld+json">
-    {
-      "@context":"https://schema.org",
-      "@type":"WebSite",
-      "name":"Smart Tools Hub",
-      "url":"https://oluwabukunmiolaosun-lab.github.io/smart-tool-hub/",
-      "description":"Free online calculators, converters, generators and productivity tools."
-    }
-    </script>
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"Smart Tools Hub",
+  "url":"https://oluwabukunmiolaosun-lab.github.io/smart-tool-hub/",
+  "description":"Free online calculators, converters, generators and productivity tools.",
+  "publisher":{
+    "@type":"Organization",
+    "name":"Smart Tools Hub"
+  },
+  "potentialAction":{
+    "@type":"SearchAction",
+    "target":"https://oluwabukunmiolaosun-lab.github.io/smart-tool-hub/?q={search_term_string}",
+    "query-input":"required name=search_term_string"
+  }
+}
+</script>
 
     <link rel="stylesheet" href="style.css">
 </head>
